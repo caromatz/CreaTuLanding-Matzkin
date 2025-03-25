@@ -1,14 +1,12 @@
 // NavBar.jsx
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
-import logo from "../../assets/images/logo.png";
 
 const NavBar = () => {
   return (
     <header>
       <nav>
-        {/* Logo */}
-        <img src={logo} alt="Logo" className="logo" />
+        <img src="/images/logo.png" alt="Logo" className="logo" />
         <ul>
           <li>Maquillajes</li>
           <li>Cremas</li>
